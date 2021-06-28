@@ -5,3 +5,4 @@ personal portfolio website
 
 https://github.com/nicinabox/superslides
 https://icons8.com/icons/set/cyclist
+https://github.com/mattboldt/typed.js
