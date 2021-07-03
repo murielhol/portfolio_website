@@ -59,3 +59,10 @@
 .aboutImage {
   max-width: 100%;
 }
+
+.skillSection {
+  background-color: cadetblue;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 5px;
+}
