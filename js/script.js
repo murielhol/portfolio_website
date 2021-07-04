@@ -15,9 +15,9 @@ $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     loop: true,
     items: 4,
-    autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1,
@@ -34,6 +34,7 @@ $(document).ready(function () {
     },
   });
 
+  // to animate the circle around skills
   var skillsTopOffset = $(".skillSection").offset().top;
   $(window).scroll(function () {
     if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
@@ -49,5 +50,33 @@ $(document).ready(function () {
         },
       });
     }
+  });
+
+  // filtering the portfolio items
+  // start with selecting all fields
+  $(".items").isotope({
+    filter: "*",
+    animationOptions: {
+      duration: 1500,
+      easing: "linear",
+      queue: false,
+    },
+  });
+
+  $("#filters a").click(function () {
+    $("#filters .current").removeClass("current");
+    $(this).addClass("current");
+
+    var selector = $(this).attr("data-filter");
+
+    $(".items").isotope({
+      filter: selector,
+      animationOptions: {
+        duration: 1500,
+        easing: "linear",
+        queue: false,
+      },
+    });
+    return false; // dont do anything else so dont re-load page
   });
 });
