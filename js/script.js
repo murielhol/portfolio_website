@@ -1,7 +1,7 @@
 // make loader icon fade out first and then inner container
 $(window).on("load", function () {
-  $(".loader .inner").fadeOut(1000, function () {
-    $(".loader").fadeOut(1500);
+  $(".loader .inner").fadeOut(500, function () {
+    $(".loader").fadeOut(1000);
   });
 
   // filtering the portfolio items
