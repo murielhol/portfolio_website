@@ -79,4 +79,31 @@ $(document).ready(function () {
     });
     return false; // dont do anything else so dont re-load page
   });
+
+  // make navigation go to link a little more smoothly
+  $("#navigation li a").click(function (e) {
+    e.preventDefault(); // prevent default behaviour=fast not smooth 
+
+    var targetElement = $(this).attr("href");
+    var targetPosition = $(targetElement).offset().top;
+    $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
+  });
+
+  // fixed variable that know navigation section top
+  const nav = $("#navigation");
+  const navTop = nav.offset().top;
+
+  $(window).on("scroll", stickyNavigation);
+
+  function stickyNavigation() {
+    var body = $("body");
+
+    if ($(window).scrollTop() >= navTop) {
+      body.css("padding-top", nav.outerHeight() + "px");
+      body.addClass("fixedNav");
+    } else {
+      body.css("padding-top", 0);
+      body.removeClass("fixedNav");
+    }
+  }
 });

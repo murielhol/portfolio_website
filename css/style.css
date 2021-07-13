@@ -68,6 +68,11 @@
   letter-spacing: 5px;
 }
 
+.skillSection .skill p {
+  margin-top: 50px;
+  position: relative;
+}
+
 .skill {
   text-align: center;
   margin-left: 10px;
@@ -285,4 +290,34 @@
 
 .copyrightSection p {
   margin: 0;
+}
+
+#navigation {
+  background-color: cadetblue;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background: url(../img/icons/menu.png);
+  background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
 }
