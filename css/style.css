@@ -6,13 +6,14 @@
   background-color: rgb(0, 0, 0, 0.3); /* to make text more visible */
 }
 
+/* navigation left right to see more pictures */
 .slides-navigation {
   z-index: 6;
 }
 .slides-navigation .prev,
 .slides-navigation .next {
-  width: 47px;
-  height: 47px;
+  width: 67px;
+  height: 67px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -60,17 +61,18 @@
   max-width: 100%;
 }
 
+/* Skills section */
+
 .skillSection,
 .contactSection {
   background-color: rgb(51, 102, 204);
   font-size: 14px;
   color: #fff;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
-.skillSection .skill p {
-  margin-top: 50px;
-  position: relative;
+.skillSection h2 {
+  margin-bottom: 100px;
 }
 
 .skill {
@@ -102,6 +104,8 @@
 .chart .percent:after {
   content: "%";
 }
+
+/* Fun facts section */
 
 .squareItem {
   margin-top: 30px;
@@ -292,6 +296,8 @@
   margin: 0;
 }
 
+/* Navigation bar */
+
 #navigation {
   background-color: rgb(51, 102, 204);
   padding: 20px 10px;
@@ -300,7 +306,7 @@
 }
 
 #navigation li {
-  padding: 0 10px;
+  padding: 0 40px;
 }
 
 #navigation li a {
