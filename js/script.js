@@ -1,3 +1,10 @@
+// make loader icon fade out first and then inner container
+$(window).on("load", function () {
+  $(".loader .inner").fadeOut(1000, function () {
+    $(".loader").fadeOut(1500);
+  });
+});
+
 $(document).ready(function () {
   $("#slides").superslides({
     animation: "fade",
@@ -82,7 +89,7 @@ $(document).ready(function () {
 
   // make navigation go to link a little more smoothly
   $("#navigation li a").click(function (e) {
-    e.preventDefault(); // prevent default behaviour=fast not smooth 
+    e.preventDefault(); // prevent default behaviour=fast not smooth
 
     var targetElement = $(this).attr("href");
     var targetPosition = $(targetElement).offset().top;

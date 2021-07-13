@@ -62,7 +62,7 @@
 
 .skillSection,
 .contactSection {
-  background-color: cadetblue;
+  background-color: rgb(51, 102, 204);
   font-size: 14px;
   color: #fff;
   letter-spacing: 5px;
@@ -137,7 +137,7 @@
   font-size: 56px;
   margin-bottom: 10px;
   font-weight: 400;
-  color: cadetblue;
+  color: rgb(51, 102, 204);
 }
 
 .squareContent h4 {
@@ -170,8 +170,8 @@
 }
 
 .filter .current {
-  background-color: cadetblue;
-  border-top: cadetblue;
+  background-color: rgb(51, 102, 204);
+  border-top: rgb(51, 102, 204);
   color: white;
 }
 
@@ -230,7 +230,7 @@
 .items a {
   width: 30px;
   height: 30px;
-  background-color: cadetblue;
+  background-color: rgb(51, 102, 204);
   position: relative;
   display: inline-block;
 
@@ -293,7 +293,7 @@
 }
 
 #navigation {
-  background-color: cadetblue;
+  background-color: rgb(51, 102, 204);
   padding: 20px 10px;
   z-index: 100;
   width: 100%;
@@ -320,4 +320,20 @@
 .fixedNav #navigation {
   position: fixed;
   top: 0;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.loader .inner {
+  width: 100%;
+  height: 100%;
+  background: url(../img/loader.gif) center center no-repeat;
 }
