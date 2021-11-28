@@ -1,10 +1,15 @@
 # portfolio_website
 
-personal portfolio website
 
-### Sources
+# to sync 
+aws s3 sync . s3://www.murielhol.com
 
-https://github.com/nicinabox/superslides
-https://icons8.com/icons/set/cyclist
-https://github.com/mattboldt/typed.js
-https://owlcarousel2.github.io/OwlCarousel2/
+
+# AWS region
+
+Choose Ireland based on :
+https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/
+
+### Very grateful for the sources
+
+https://www.alexhyett.com/terraform-s3-static-website-hosting#terraform-command-to-deploy-our-infrastructure
