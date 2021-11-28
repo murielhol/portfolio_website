@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="loader">
+      <div class="inner"></div>
+    </div>
+
+    <div id="slides">
+      <div class="overlay"></div>
+      <div class="slides-container">
+        <img src="img/pinnacles.jpg" alt="" />
+        <img src="img/mt Ngauruhoe.jpg" alt="" />
+        <img src="img/mscdefence.jpeg" alt="" />
+        <img src="img/cape reinga.jpg" alt="" />
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">MURIEL HOL</p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">Hi There!</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stats">Fun Facts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" , class="aboutSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="aboutImage" src="img/me.jpg" />
+          </div>
+          <div class="col-md-7">
+            <h4>Hi There! &#128075;</h4>
+
+            <p>
+              Thank you for coming to my page! &#128513;.
+              After finishing my masters degree artificial intelligence in Amsterdam, 
+              I moved to New Zealand to work for a startup in agricultural technology. 
+              Here I experienced what it is to actually make a model
+              work in production and I fell in love with building architecture
+              and pipelines &#128525;. <br /> Now I am working towards being a full-stack
+              data scientist. <sup><a href="#fn1" id="ref1">1</a></sup> <br />
+              <br />
+
+              I am devoted to making data science work on real problems to make
+              a positive contribution.
+
+              <br />
+              <br />
+               <br />
+
+              When the data finally has a break from me, I'll be on my bike &#128692;. I
+              love bike-packing, working on my bike, and hanging out with friends &#128149;.
+
+              <br />
+              <br />
+
+              My top 3 favorite quotes:
+              <br />
+              <br />
+              <i>"Do and do not. There is no trying"</i> - Yoda
+              <br />
+              <br />
+              <i>"Great minds discuss ideas, average minds discuss events, small
+              minds discuss people."</i> - Eleanor Roosevelt.
+              <br />
+              <br />
+              <i>"People don't care how much you know until they know how much you
+              care"</i> ― Theodore Roosevelt
+
+              <br />
+              <br />
+            </p>
+            <sup id="fn1">1. [There are many different definitions to be found on the internet, 
+              I refer to a combination of a data engineer, data scientist, machine learning engineer, data analyst and an MLOps engineer. 
+              I absolutely love <a href="https://datatalks.club/blog/data-roles.html">this blog that explains the different roles in a data team </a>]</sup>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skillSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>Tracking my progress towards full stack data scientist &#128640;</h2>
+            <h6>Indication of skill levels (100% being expert), and some key experiences and goals</h6>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">70</span>
+                <canvas height="152px" width="152px"></canvas>
+              </span>
+              <h4>DATA ENGINEER<br /></h4>
+              <p>
+                <b> experience</b> <br />
+                ETL pipeline with Pyspark, Glue and Athena (AWS)<br />
+                Creating monitoring alarms in Apache Flink <br />
+                SQL queries for live data applications and ad hoc analysis <br />
+                <b> next goal </b> <br />
+                Databases, creation and management
+              </p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="95">
+                <span class="percent">90</span>
+                <canvas height="152px" width="152px"></canvas>
+              </span>
+              <h4>DATA SCIENTIST</h4>
+              <p> 
+                <b> experience</b> <br />
+                Created Machine Learning and feature-based models that deliver high costumer value in core product<br/>
+                <b> next goal </b> <br />
+                Implementation of continual learning 
+              </p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="75">
+                <span class="percent">65</span>
+                <canvas height="152px" width="152px"></canvas>
+              </span>
+              <h4>MACHINE LEARNING ENGINEERING</h4>
+              <p>
+               <b> experience</b> <br />
+                Serving Tensorflow models<br />
+                with Docker and Fast API<br />
+                <b> next goal </b> <br />
+                Create ML life cycle management pipeline</b>
+              </p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="55">
+                <span class="percent">20</span>
+                <canvas height="152px" width="152px"></canvas>
+              </span>
+              <h4>MLOPS</h4>
+              <p>
+                <b> experience</b> <br />
+                Terraform for deploying data applications on AWS <br/>
+                <b> next goal </b> <br />
+                Deploy a model registry
+              </p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="85">
+                <span class="percent">95</span>
+                <canvas height="152px" width="152px"></canvas>
+              </span>
+              <h4>DATA ANALYST</h4>
+              <p>
+                <b> experience</b> <br />
+                Building Tableau dashboards for analysis and monitoring<br />
+                Building Grafana dashboards for monitoring<br />
+                <b> next goal </b> <br />
+                building a AB testing application to evaluate model performance
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="stats" class="statsSection section">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12 text-center">
+            <h2>Fun Facts</h2>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fas fa-utensils"></i>
+                </div>
+                <div class="squareContent">
+                  <h2>9</h2>
+                  <h4>years of hospitality work</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6" >
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fas fa-bicycle"></i>
+                </div>
+                <div class="squareContent">
+                  <h2>6</h2>
+                  <h4>countries I've been bike-packing in</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                <i class="fas fa-plane"></i>
+                </div>
+                <div class="squareContent">
+                  <h2>11256</h2>
+                  <h4>kilometers of migration to new job</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <div class="squareContent">
+                  <h2>5</h2>
+                  <h4>courses assisted for the bsc artificial intelligence</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div id="portfolio" class="portfolioSection section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>PORTFOLIO</h2>
+          </div>
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".dataEngineering">Data Engineering</a></li>
+              <li><a href="#" data-filter=".dataScience">Data Science</a></li>
+              <li><a href="#" data-filter=".bikePacking">Bike-packing</a></li>
+            </ul>
+          </div>
+          <div class="itemsContainer">
+            <ul class="items">
+              <li
+                onclick=""
+                class="dataScience col-xs-3 col-sm-2 col-md-1 col-lg-1"
+              >
+                <div class="item">
+                  <img src="img/icons/icons8-github-96.png" />
+
+                  <div class="icons">
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li
+                onclick=""
+                class="bikePacking col-xs-3 col-sm-2 col-md-1 col-lg-1"
+              >
+                <div class="item">
+                  <img src="img/icons/icons8-adventure-100.png" />
+
+                  <div class="icons">
+                    <a
+                      href=""
+                      target="_blank"
+                      class="projectLink"
+                      title="open in new page"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li
+                onclick=""
+                class="bikePacking col-xs-3 col-sm-2 col-md-1 col-lg-1"
+              >
+                <div class="item">
+                  <img src="img/icons/icons8-adventure-100.png" />
+
+                  <div class="icons">
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li
+                onclick=""
+                class="dataEngineering col-xs-3 col-sm-2 col-md-1 col-lg-1"
+              >
+                <div class="item">
+                  <img src="img/icons/icons8-github-96.png" />
+
+                  <div class="icons">
+                    <a
+                      href="https://www.google.com/"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li
+                onclick=""
+                class="dataScience col-xs-3 col-sm-2 col-md-1 col-lg-1"
+              >
+                <div class="item">
+                  <img src="img/icons/icons8-medium-monogram-100.png" />
+
+                  <div class="icons">
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li
+                onclick=""
+                class="dataScience col-xs-3 col-sm-2 col-md-1 col-lg-1"
+              >
+                <div class="item">
+                  <img src="img/icons/icons8-github-96.png" />
+
+                  <div class="icons">
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li
+                onclick=""
+                class="dataScience col-xs-3 col-sm-2 col-md-1 col-lg-1"
+              >
+                <div class="item">
+                  <img src="img/icons/icons8-medium-monogram-100.png" />
+
+                  <div class="icons">
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <h2>Contact</h2>
+        <a href="" class="contactButton">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="copyrightSection">
+      <div class="col-md-12 text-center">
+        <p>&copy; Copyright Muriel Hol 2021</p>
+      </div>
+    </div>
+
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
