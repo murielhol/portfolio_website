@@ -2,6 +2,7 @@
 $(window).on("load", function () {
   $(".loader .inner").fadeOut(500, function () {
     $(".loader").fadeOut(1000);
+    $("html,body").scrollTop(100);
   });
 
   // filtering the portfolio items
