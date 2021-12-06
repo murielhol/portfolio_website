@@ -33,7 +33,7 @@ $(document).ready(function () {
 
   $(".owl-carousel").owlCarousel({
     loop: true,
-    items: 4,
+    items: 5,
     autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
@@ -48,7 +48,7 @@ $(document).ready(function () {
         items: 3,
       },
       938: {
-        items: 4,
+        items: 5,
       },
     },
   });
