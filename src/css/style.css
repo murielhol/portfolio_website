@@ -71,98 +71,20 @@
   background-color: rgb(51, 102, 204);
   font-size: 14px;
   color: rgb(255, 255, 255);
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
 }
 
-.skillSection h2 {
-  margin-bottom: 100px;
-}
 
 .skill {
   text-align: center;
   margin-left: 10px;
 }
 
-.chart {
-  position: relative;
-  width: 152px;
-  height: 152px;
-  display: inline-block;
-  text-align: center;
+
+h0 {
+  font-size: 80px;
 }
 
-.chart canvas {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.chart .percent {
-  color: black;
-  line-height: 152px;
-  display: inline-block;
-  font-size: 35px;
-}
-
-.chart .percent:after {
-  content: "%";
-}
-
-/* Fun facts section */
-
-.squareItem {
-  margin-top: 30px;
-  position: relative;
-}
-
-.squareInnerContainer {
-  position: relative;
-  padding: 50px 15px 35px;
-  text-align: center;
-  border: 2px solid black;
-  border-top: none;
-}
-
-.squareInnerContainer:before,
-.squareInnerContainer:after {
-  content: "";
-  position: absolute;
-  top: 0px;
-  width: 30%;
-  border-bottom: 2px solid black;
-}
-
-.squareInnerContainer:before {
-  right: 0px;
-}
-
-.squareInnerContainer:after {
-  left: 0px;
-}
-
-.squareContent h2 {
-  font-size: 46px;
-  margin-bottom: 10px;
-  font-weight: 400;
-  color: rgb(51, 102, 204);
-}
-
-.squareContent h4 {
-  font-size: 20px;
-  margin-bottom: 0px;
-  font-weight: 600;
-}
-
-.squareIcon {
-  position: absolute;
-  left: 50%;
-  top: -30px;
-  width: 40%;
-  height: 60px;
-  font-size: 45px;
-  margin-left: -20%;
-  color: rgb(51, 102, 204);
-}
 
 /* portfolio section */
 .filter a {
