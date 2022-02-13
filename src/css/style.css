@@ -74,22 +74,19 @@
   /* letter-spacing: 2px; */
 }
 
-
 .skill {
   text-align: center;
   margin-left: 10px;
 }
 
-
 .bigger {
   font-size: 80px;
 }
 
-
 /* portfolio section */
 .filter a {
-  color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
+  color: rgb(51, 102, 204);
+  border: 1px solid rgb(51, 102, 204);
   padding: 10px 18px;
   display: block;
 }
@@ -100,8 +97,8 @@
 }
 
 .filter .current {
-  background-color: rgb(255, 255, 255);
-  color: rgb(51, 102, 204);
+  background-color: rgb(51, 102, 204);
+  color: rgb(255, 255, 255);
 }
 
 .filter {
@@ -110,8 +107,8 @@
 }
 
 .portfolioSection {
-  background-color: rgb(51, 102, 204);
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(51, 102, 204);
 }
 
 .portfolioSection .heading {
@@ -218,9 +215,15 @@
 
 /* contact section */
 .contactSection {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(51, 102, 204);
   font-size: 14px;
-  color: rgb(51, 102, 204);
+  color: white;
+  letter-spacing: 2px;
+}
+
+/* contact section */
+.contactSection .contactButton {
+  color: white;
   letter-spacing: 2px;
 }
 
