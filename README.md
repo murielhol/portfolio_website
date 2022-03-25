@@ -24,6 +24,8 @@ aws-vault exec <profile> aws s3 sync . <your bucket>
 Then invalidate the cloudfront cache, unless the change is minor and you don't mind the old version sticking around for a while
 
 ```
+cd ..
+pipenv shell
 aws-vault exec <profile> python3 invalidate_cloudfront_cache.py
 ```
 
