@@ -25,6 +25,30 @@
     .menu {
       display: none;
     }
+
+    /* Navigation bar */
+
+    #navigation {
+      background-color: rgb(99, 168, 86);
+      padding: 20px 10px;
+      z-index: 100;
+      width: 100%;
+    }
+
+    #navigation li {
+      padding: 0 0px;
+    }
+
+    #navigation li a {
+      color: #fff;
+    }
+    .navbar-brand,
+    .navbar-brand:hover {
+      color: #fff;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
   </style>
   <body>
     <header class="bgimg w3-display-container w3-grayscale-min" id="home">
@@ -44,6 +68,44 @@
       </div>
     </header>
 
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">Back to home page &#127968;</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" style="list-style: none; text-align: center">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro"
+              >Intro &#128692;&#127997;&#8205;&#9792;&#65039;
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"
+              >About Tour Aotearoa &#128692;&#127995;&#8205;&#9792;&#65039;
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#highlights"
+              >Personal Highlights&#128692;&#8205;&#9792;&#65039;
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#setup"
+              >Bike and Setup &#128692;&#127999;&#8205;&#9792;&#65039;
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tips"
+              >Some general tips &#128692;&#127996;&#8205;&#9792;&#65039;
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#note"
+              >Final note &#128692;&#8205;&#9792;&#65039;
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="w3-container" id="intro">
       <div class="w3-content" style="max-width: 700px">
         <h5 class="w3-center w3-padding-64">
@@ -51,10 +113,10 @@
         </h5>
         <p>
           In 2022 I cycled the Tour Aotearoa in the official event. I absolutely
-          absolutely loved doing this tour! Besides being a cool challenge, its
-          a great way to see the country and meet people. In this blog I want to
-          share some info, highlights, my bike and setup and some tips, hope you
-          enjoy the read!
+          loved doing this tour! Besides being a cool challenge, its a great way
+          to see the country and meet people. In this blog I want to share some
+          info, highlights, my bike setup and some tips, hope you enjoy the
+          read!
         </p>
         <img
           src="img/TA22/TourAotearoa.jpg"
@@ -76,12 +138,10 @@
             official website
           </a>
           has lots of information about the route and how to participate. The
-          tour is founded and organised by the
-          <a href="https://www.kennett.co.nz/">Kenneths</a>. The organisation is
-          mint! You can download the gpx files on the event page, and you can
-          also buy up-to-date booklets that have all the info and tips you can
-          need such as the route and accommodations along the way. There also is
-          a great community around the route on
+          organisation is mint! You can download the gpx files on the event
+          page, and you can also buy up-to-date booklets that have all the info
+          and tips you can need. There also is a great community around the
+          route on
           <a href="https://www.facebook.com/groups/touraotearoa">facebook</a>.
           You can do the route anytime, but every 2 years there is an official
           event. You apply for this on
@@ -93,6 +153,11 @@
             >You can replay the 2022 event here</a
           >.
         </p>
+        <img
+          src="img/TA22/mtbtrack.jpeg"
+          style="width: 70%; max-width: 1000px; margin-left: 15%"
+          class="w3-margin-top"
+        />
         <p>
           If you are used to bike-touring in Europe (like me), it is good to
           know there are some key differences. Although most of it is on sealed
@@ -102,12 +167,10 @@
           gravel. Being a noob on anything that is not a sealed road, this meant
           quite a lot of hike-a-bike for me. But it were those tricky trails
           that lead to the most beautiful remote places, so it was 100% worth
-          it! And I did like the challenge, most of the time ;) Also, some areas
-          are quite remote, and you might need to bring food for the entire day.
-          Then finally you need to be prepared to climb lots, if you are from
-          the Netherlands like I am, that means you will be wise to train this
-          beforehand. This reminds me of a quote that one of the riders posted
-          on facebook:
+          it! And I did like the challenge, most of the time ;) Then finally you
+          need to be prepared to climb lots, if you are from the Netherlands
+          like I am, that means you will be wise to train this beforehand. This
+          reminds me of a quote that one of the riders posted on facebook:
         </p>
         <div class="w3-panel w3-leftbar w3-light-grey">
           <p>
@@ -126,8 +189,8 @@
         <p><strong>The boat from Pouto Point to Parakai</strong></p>
         <p>
           I loved the little boat and how the bikes had to be lifted onto it.
-          Also a cool that all cyclists gather on the beach to wait for the
-          boat, its a good moment to meet each other.
+          Also cool that all cyclists gather on the beach to wait for the boat,
+          its a good moment to meet each other.
         </p>
         <img
           src="img/TA22/pouto.gif"
@@ -198,7 +261,9 @@
           <strong>The people and animals</strong>
         </p>
         <p>
-          The people participating in the tour were all absolutely epic.
+          <strong>
+            people participating in the tour were all absolutely epic.</strong
+          >
           Although I mainly cycled alone, I often saw 'the gang' during the
           coffee breaks. I definitely felt safe doing the event alone, but it
           really helped knowing I could rely on my fellow participants, and I
@@ -206,11 +271,11 @@
           people if it was getting dark.
         </p>
         <p>
-          I was also overwhelmed by the hospitality. Everyone was very helpful
-          and I loved it when someone waved on the street or from their car,
-          which gave me a real boost. Although I camped most of it, some days I
-          would stay in a guest room via airbnb. I stayed for dinner a couple of
-          times, and met some lovely people this way.
+          <strong>I was also overwhelmed by the hospitality.</strong> Everyone
+          was very helpful and I loved it when someone waved on the street or
+          from their car, which gave me a real boost. Although I camped most of
+          it, some days I would stay in a guest room via airbnb. I stayed for
+          dinner a couple of times, and met some lovely people this way.
         </p>
         <p>
           One thing I like about bike-packing is that you become very
@@ -218,15 +283,15 @@
           surrounding in a very different way. I find this a great experience.
         </p>
         <p>
-          Not to forget the animals! I often found myself cycling through or
-          next to a bunch of cows on their way to the milking shed. There were
-          also some paths that went through an area where the animals walked
-          free, resulting in some funny encounters. Lots of wild goats, lots and
-          lots of birds and ofcourse the bugs hiding in my tent. Less lovely
-          were the infamous sand flies on the west coast, never again will I
-          forget to bring anti-bug lotion. Being with lots of animals is
-          definitely something I love about bike-packing and New Zealand is
-          great for it.
+          <strong>Not to forget the animals!</strong> I often found myself
+          cycling through or next to a bunch of cows on their way to the milking
+          shed. There were also some paths that went through an area where the
+          animals walked free, resulting in some funny encounters. Lots of wild
+          goats, lots and lots of birds and ofcourse the bugs hiding in my tent.
+          Less lovely were the infamous sand flies on the west coast, never
+          again will I forget to bring anti-bug lotion. Being with lots of
+          animals is definitely something I love about bike-packing and New
+          Zealand is great for it.
         </p>
         <img
           src="img/TA22/peopleanimal.png"
@@ -249,14 +314,19 @@
         />
         <p>
           I was lucky to buy a bike second-hand from a girl that works at a bike
-          shop, she created the perfect bike-packing setup. Its is a Specialized
-          Diverge Base Carbon, with Ritchey Comp Beacon Flare bars, DT Swiss
-          G540 wheels with Tracer Pro 47 tires, SRAM Force Rear Derailleur, SRAM
-          SX crankset with a 32t chainring. I had 0 mechanicals, not even a flat
-          tire. Given I had many crashes, I was super impressed by this. Its a
-          very light bike, which was very convenient during all the hike-a-bike
-          parts. If you are a mountain bike lover, and technically skilled, then
-          I definitely don't recommend this bike. Its very fast on sealed roads
+          shop, she created the perfect bike-packing setup. Its is a
+          <li>Specialized Diverge Base Carbon</li>
+          <li>with Ritchey Comp Beacon Flare bars</li>
+          <li>DT Swiss G540 wheels with Tracer Pro 47 tires</li>
+          <li>SRAM Force Rear Derailleur</li>
+          <li>SRAM SX crankset with a 32t chainring</li>
+          I had 0 mechanicals, not even a flat tire. Given I had many crashes, I
+          was super impressed by this. Its a very light bike, which was very
+          convenient during all the hike-a-bike parts.
+        </p>
+        <p>
+          If you are a mountain bike lover, and technically skilled, then I
+          definitely don't recommend this bike. Its very fast on sealed roads
           and the nice kind of gravel, but its a pain on technical trails.
           However, even if you had given me a mountain bike with fat tires and
           suspension, I would not have had the skills to handle it so
@@ -279,61 +349,60 @@
           class="w3-margin-top"
         />
         <p>
-          <li>
-            Pedals that are flat on 1 side and clip in on the other (I had the
-            <a
-              href="https://bike.shimano.com/en-EU/product/component/shimano/PD-EH500.html"
-              >Shimano PD-EH500</a
-            >). Some tracks are muddy and make your cleats clog up. I also felt
-            a lot more save on some tracks when not clipped in. Besides that, I
-            felt it helped my legs and knees a little to not clip in once in a
-            while, especially on the tricky gravel where you need to make some
-            funky movements.
-          </li>
-          <li>
-            The Louise Dropper Post Harness from
-            <a href="https://waywardriders.com/">waywardriders</a>. I have a
-            small bike (size 49) and it still worked for me. I had my 1.5 kg
-            tent in it and a puffer jacket. Just a very easy, light and
-            versatile piece of engineering.
-          </li>
-          <li>
-            The Ritchey Comp Beacon Flare bars. Sooo many hand positions, and so
-            comfy. I had 0 issues with my hands or upper back. definitely also
-            get some aerobars though, they will be great for the strong head
-            winds, or when you need to rest your arms. And to put stuff onto it!
-          </li>
-          <li>
-            <a
-              href="https://shop.reservewheels.com/products/fillmore-tubeless-valves?variant=41504818561205"
-              >Fillmore tubeless valves</a
-            >. From the small experience I have with both tubed and tubeless, I
-            find tubeless faster and more comfy. Also had 0 punctures so far.
-            And when you go tubeless, these valves are pretty amazing; they
-            allow a lot more air to flow through the valve, and prevent the
-            valve from clogging up with sealant. I could pump up my 47mm tires
-            with just a little crappy hand-pump without much effort. And the
-            valve cap system makes its easy to let some air out when going
-            off-road.
-          </li>
-          <li>
-            Foam mattress. I heard several people with leaking air mattresses.
-            Its also a great way to pack your stuff, I just rolled it all up
-            inside of the mattress. I had the
-            <a
-              href="https://www.thermarest.com/ie/sleeping-pads/trek-and-travel/ridgerest-solite-sleeping-pad/ridgerest-solite.html"
-              >RidgeRest SOLite sleeping pad</a
-            >
-            from Thermarest which is only 0.4kg for the regular size. I did find
-            it having a warming effect, and it was thick enough for me to sleep
-            comfy.
-          </li>
-          <li>
-            Foam cover for the saddle. Although I used lots of chamois cream, my
-            bum was not happy after 3 days in the saddle. Then I picked up a
-            memory foam saddle cover in Auckland, and it was gone! In general
-            chamois cream did not work for me. Bepanthen however, did magic.
-          </li>
+          <strong
+            >Pedals that are flat on 1 side and clip in on the other.</strong
+          >
+          I had the
+          <a
+            href="https://bike.shimano.com/en-EU/product/component/shimano/PD-EH500.html"
+            >Shimano PD-EH500</a
+          >. Some tracks are muddy and make your cleats clog up. I also felt a
+          lot more save on some tracks when not clipped in.
+        </p>
+        <p>
+          <strong>The Louise Dropper Post Harness </strong> from
+          <a href="https://waywardriders.com/">waywardriders</a>. I have a small
+          bike (size 49) and it still worked for me. I had my 1.5 kg tent in it
+          and a puffer jacket. Just a very easy, light and versatile piece of
+          engineering.
+        </p>
+        <p>
+          <strong>The Ritchey Comp Beacon Flare bars. </strong> Sooo many hand
+          positions, and so comfy. I had 0 issues with my hands or upper back.
+          Definitely also get some aerobars though, they will be great for the
+          strong head winds, or when you need to rest your arms. And to put
+          stuff onto it!
+        </p>
+        <p>
+          <a
+            href="https://shop.reservewheels.com/products/fillmore-tubeless-valves?variant=41504818561205"
+            ><strong>Fillmore tubeless valves </strong></a
+          >. From the small experience I have with both tubed and tubeless, I
+          find tubeless faster and more comfy. Also had 0 punctures so far. And
+          when you go tubeless, these valves are pretty amazing; they allow a
+          lot more air to flow through the valve, and prevent the valve from
+          clogging up with sealant. I could pump up my 47mm tires with just a
+          little crappy hand-pump without much effort. And the valve cap system
+          makes its easy to let some air out when going off-road.
+        </p>
+        <p>
+          <strong>Foam mattress. </strong>I heard several people with leaking
+          air mattresses. Its also a great way to pack your stuff, I just rolled
+          it all up inside of the mattress. I had the
+          <a
+            href="https://www.thermarest.com/ie/sleeping-pads/trek-and-travel/ridgerest-solite-sleeping-pad/ridgerest-solite.html"
+            >RidgeRest SOLite sleeping pad</a
+          >
+          from Thermarest which is only 0.4kg for the regular size. I did find
+          it having a warming effect, and it was thick enough for me to sleep
+          comfy.
+        </p>
+        <p>
+          <strong>Foam cover for the saddle. </strong> Although I used lots of
+          chamois cream, my bum was not happy after 3 days in the saddle. Then I
+          picked up a memory foam saddle cover in Auckland, and it was gone! In
+          general chamois cream did not work for me. Bepanthen however, did
+          magic.
         </p>
         <br />
         <strong>Some mistakes I made with my setup</strong>
@@ -343,38 +412,35 @@
           class="w3-margin-top"
         />
         <p>
-          <li>
-            Loose items tied to the bike. In my naiveness, I would do things
-            like tieing my sweater with 2 knots to my saddle bag, or I attached
-            my bike light to the front areaobar with a rubber band. But the
-            roads on this event are not that forgiving, and anything that has
-            the slightest chance of getting loose, will get loose. So I learned
-            the hard way that unlike the bike-packing I was used to, you cant
-            have a mug cutely dangling on the side of the saddlebag in this
-            event: stuff needs to be very very very securely attached to the
-            bike else its gone.
-          </li>
-          <li>
-            Bike locks. I brought 3 bike locks with me, which really was not
-            needed. I could have done with 1 light one. Not sure if this is true
-            outside of New Zealand, but many times it was fine to leave it
-            outside of the cafe or shop, or at most 1 lock would be sufficient.
-          </li>
-          <li>
-            My tent. I camped 14 of the 21 nights. Firstly because I love
-            camping, but also because especially on your own you save at least
-            50 dollars a night. You are also a lot more flexible when camping,
-            as especially after Covid there are areas with no or only very
-            expensive accommodations. I do recommend a hut or airbnb guest room
-            every 4 or 5 nights to get everything washed and dried, and to
-            charge your things overnight. A guest room often includes staying
-            for dinner, which is a cool way to meet the locals. Anyhow, next
-            time I would replace my tent with a bivy bag and a tarp. A bivy is a
-            lot warmer, and just less weight, and a tarp would give enough
-            shelter and is quicker to pack up. Although only being 1.5 kg, and
-            its a great tent, I still think my tent was a bit of an overkill and
-            packing it up in the dark was a bit of a hassle.
-          </li>
+          <strong>Loose items tied to the bike. </strong>In my naiveness, I
+          would do things like tieing my sweater with 2 knots to my saddle bag,
+          or I attached my bike light to the front areaobar with a rubber band.
+          But the roads on this event are not that forgiving, and anything that
+          has the slightest chance of getting loose, will get loose. So I
+          learned the hard way that unlike the bike-packing I was used to, you
+          cant have a mug cutely dangling on the side of the saddlebag in this
+          event: stuff needs to be very very very securely attached to the bike
+          else its gone.
+        </p>
+        <p>
+          <strong>Bike locks.</strong> I brought 3 bike locks with me, which
+          really was not needed. I could have done with 1 light one. Not sure if
+          this is true outside of New Zealand, but many times it was fine to
+          leave it outside of the cafe or shop, or at most 1 lock would be
+          sufficient.
+        </p>
+        <p>
+          <strong>My tent.</strong> I camped 14 of the 21 nights. Firstly
+          because I love camping, but also because especially on your own you
+          save at least 50 dollars a night. You are also a lot more flexible
+          when camping, as especially after Covid there are areas with no or
+          only very expensive accommodations. I do recommend a room every 4 or 5
+          nights to get everything washed and dried, and to charge your things
+          overnight. Anyhow, next time I would replace my tent with a bivvy bag
+          and a tarp. A bivvy is a lot warmer, and just less weight, and a tarp
+          would give enough shelter and is quicker to pack up. Although only
+          being 1.5 kg, and its a great tent, I still think my tent was a bit of
+          an overkill and packing it up in the dark was a bit of a hassle.
         </p>
       </div>
     </div>
@@ -384,34 +450,32 @@
         <h5 class="w3-center w3-padding-64">
           <span class="w3-tag w3-wide">Some general tips</span>
         </h5>
-        Some general tips and things that worked for me or lessons I learned
         <p>
-          <li>
-            Start cycling early. It gets blazing hot in NZ and it really helped
-            me to get as many miles done as possible while it was cool. Besides
-            that its kinda cool to see the sun come up while you ride.
-          </li>
-          <li>
-            Wear a compression legging when not cycling. I did not fully recover
-            yet from a knee injury at the start of the event, and my physio
-            advised me to wear a compression legging preferably also at night.
-            It really helped me, and I noticed that when I did not wear it I
-            would have more sore legs the next day.
-          </li>
-          <li>
-            Don't plan too much. I planned too much for the first week, which
-            meant some days where too long for me, and some days where too easy.
-            Better to see how you go and make the most of the good days when you
-            can, and give yourself a rest when needed.
-          </li>
-          <li>
-            Don't forget to train the arms and core. I stopped going to
-            body-pump long before the event and I definitely regret it. Strong
-            arms would have been really nice during the hike-a-bike and there
-            were also these bridges where you had to walk over with your bike
-            vertically. I really wished I had more upper body strength as that
-            would have saved me lots of bloopers.
-          </li>
+          <strong>Start cycling early.</strong> It gets blazing hot in NZ and it
+          really helped me to get as many miles done as possible while it was
+          cool. Besides that its kinda cool to see the sun come up while you
+          ride.
+        </p>
+        <p>
+          <strong>Wear a compression legging </strong> when not cycling. I did
+          not fully recover yet from a knee injury at the start of the event,
+          and my physio advised me to wear a compression legging preferably also
+          at night. It really helped me, and I noticed that when I did not wear
+          them, I would have more sore legs the next day.
+        </p>
+        <p>
+          <strong>Don't plan too much.</strong> I planned too much for the first
+          week, which meant some days where too long for me, and some days where
+          too easy. Better to see how you go and make the most of the good days
+          when you can, and give yourself a rest when needed.
+        </p>
+        <p>
+          <strong>Don't forget to train the arms and core.</strong> I stopped
+          going to body-pump long before the event and I definitely regret it.
+          Strong arms would have been really nice during the hike-a-bike and
+          there were also these bridges where you had to walk over with your
+          bike vertically. I really wished I had more upper body strength as
+          that would have saved me lots of bloopers.
         </p>
         <img
           src="img/TA22/walk.jpeg"
@@ -421,10 +485,10 @@
       </div>
     </div>
 
-    <div class="w3-container" id="tips">
+    <div class="w3-container" id="note">
       <div class="w3-content" style="max-width: 700px">
         <h5 class="w3-center w3-padding-64">
-          <span class="w3-tag w3-wide">Final notes</span>
+          <span class="w3-tag w3-wide">Final note</span>
         </h5>
         <p>
           I am incredibly grateful for having done this tour. I realize only
